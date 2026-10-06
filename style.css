@@ -158,11 +158,24 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 31vw;
+    height: 40vw;
+}
+
+.why-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vw;
 }
 
 .why-title {
     margin-top: 8vw;
+}
+
+.why-img {
+    margin-top: 3vw;
+    margin-left: 3vw;
+    height: 10vw;
 }
 
 .why-container {

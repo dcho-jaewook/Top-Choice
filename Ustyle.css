@@ -7,6 +7,7 @@
 
 :root {
     --main-color: #D32B2A;
+    --main-background-color: #A51F26;
     --sub-color: white;
 }
 
@@ -39,6 +40,10 @@
 .header-logo {
     margin-left: calc(20px + 5vw);
     align-self: center;
+}
+
+.header-logo-img {
+    height: 60px;
 }
 
 a:has(h1.header-logo-text) {
@@ -120,7 +125,7 @@ a:has(h1.header-logo-text) {
 }
 
 #footer {
-    background-color: var(--main-color);
+    background-color: var(--main-background-color);
     height: 30vw;
     color: white;
     display: flex;
